@@ -1,0 +1,600 @@
+﻿
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title></title>
+      <!--Favicons-->
+      <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+      <link rel="manifest" href="favicon/manifest.json">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="theme-color" content="#ffffff">
+      <!--Bootstrap and Other Vendors-->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+      <link rel="stylesheet" href="css/fontawesome-all.min.css">
+      <link rel="stylesheet" href="vendors/owl.carousel/css/owl.carousel.css">
+       
+      <link rel="stylesheet" type="text/css" href="vendors/flexslider/flexslider.css" media="screen" />
+      <link rel="stylesheet" type="text/css" href="vendors/bootstrap-rating/bootstrap-rating.css" media="screen" />
+      <!--Fonts-->
+      <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+      <!--Mechanic Styles-->
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/responsive.css">
+      <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->
+   </head>
+   <body>
+
+      <a href="#" id="back-to-top" title="Back to top">&uarr;</a>
+      <header class="row" id="header">
+         <div class="row m0 logo_line">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-5 logo">
+                     <a href="index.html" class="logo_a"><img src="images/dshine-logo.png" alt="D-shine">
+                     </a>
+                  </div>
+                  <div class="col-sm-7 searchSec">
+                     <div class="col-sm-12">
+                        <div class="fright wishlistCompare">
+                           <ul class="nav">
+                              <li>
+                                 <a href="#">
+                                 <span class="wish">
+                                 <i class="fas fa-heart"></i>
+                                 3 
+                                 </span>
+                                 <span>Wishlist</span>
+                                 </a>
+                              </li>
+                              <li class="h_cart">
+                                 <a href="cart.html">
+                                 <span class="wish">
+                                 <i class="fas fa-gem"></i>
+                                 2 
+                                 </span>
+                                 <span>My cart</span>
+                                 </a>
+                                 <div class="hclist">
+                                    <div class="table-responsive">
+                                       <table class="table">
+                                          <thead>
+                                             <tr>
+                                                <th class="productImage">Product image</th>
+                                                <th class="productName">Product name</th>
+                                                <th></th>
+                                             </tr>
+                                          </thead>
+                                          <tbody>
+                                             <tr class="alert" role="alert">
+                                                <td class="productImage"><img src="images/product/single/l1.png" alt=""></td>
+                                                <td class="productName">
+                                                   <h6 class="heading">Gold Plated Charm</h6>
+                                                   <div class="input-group spinner">
+                                                      <input class="form-control" value="1" type="text">
+                                                      <div class="input-group-btn-vertical">
+                                                         <button class="btn btn-default"><i class="fas fa-angle-up"></i></button>
+                                                         <button class="btn btn-default"><i class="fas fa-angle-down"></i></button>
+                                                      </div>
+                                                   </div>
+                                                </td>
+                                                <td><a href="#" class="edit" data-dismiss="alert" aria-label="Close"><i class="far fa-trash-alt"></i></a></td>
+                                             </tr>
+                                             <tr class="alert" role="alert">
+                                                <td class="productImage"><img src="images/product/single/l1.png" alt=""></td>
+                                                <td class="productName">
+                                                   <h6 class="heading">Zephyrr Stones</h6>
+                                                   <div class="input-group spinner">
+                                                      <input class="form-control" value="1" type="text">
+                                                      <div class="input-group-btn-vertical">
+                                                         <button class="btn btn-default"><i class="fas fa-angle-up"></i></button>
+                                                         <button class="btn btn-default"><i class="fas fa-angle-down"></i></button>
+                                                      </div>
+                                                   </div>
+                                                </td>
+                                                <td><a href="#" class="edit" data-dismiss="alert" aria-label="Close"><i class="far fa-trash-alt"></i></a></td>
+                                             </tr>
+                                          </tbody>
+                                       </table>
+                                    </div>
+                                 </div>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-sm-12">
+                        <div class="fright searchForm">
+                           <form action="#" method="get">
+                              <div class="input-group">
+                                 <input type="hidden" name="search_param" value="all" id="search_param">
+                                 <input type="search" class="form-control" placeholder="Search Products">
+                                 <span class="input-group-btn searchIco">
+                                 <button class="btn btn-default" type="submit"><i class="fas fa-search"></i></button>
+                                 </span>
+                              </div>
+                              <!-- /input-group -->
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <nav class="navbar navbar-default m0 navbar-static-top">
+            <div class="container-fluid container">
+               <!-- Brand and toggle get grouped for better mobile display -->
+               <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNav">
+                  <i class="fas fa-bars"></i> MENU
+                  </button>
+               </div>
+               <!-- Collect the nav links, forms, and other content for toggling -->
+               <div class="collapse navbar-collapse" id="mainNav">
+                  <ul class="nav navbar-nav">
+                     <li class="dropdown">
+                        <a href="index.html"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Home</a>
+                        <ul class="dropdown-menu" role="menu">
+                           <li><a href="index.html">Home Default</a></li>
+                           <li><a href="index2.html">Home 2 - Menu 2</a></li>
+                           <li><a href="index3.html">Home 3 - Menu 3</a></li>
+                        </ul>
+                     </li>
+                     <li><a href="about.html">About</a></li>
+                     <li class="active dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Pages</a>
+                        <ul class="dropdown-menu" role="menu">
+                           <li><a href="blog.html">Blog</a></li>
+                           <li><a href="single-post.html">Single Post</a></li>
+                           <li><a href="shortcodes.html">Shortcodes</a></li>
+                           <li><a href="innerpage-dark.html">Inner Page Dark</a></li>
+                           <li><a href="404.html">404</a></li>
+                        </ul>
+                     </li>
+                     <li class="dropdown megaMenu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Mega Menu</a>
+                        <ul class="dropdown-menu row m0" role="menu">
+                           <li class="listMenu">
+                              <div class="row listTitle">Jewelery &amp; sectionals</div>
+                              <ul class="nav megaInnerMenu">
+                                 <li><a href="#">wedding ring</a></li>
+                                 <li><a href="#">pendant</a></li>
+                                 <li><a href="#">nosering</a></li>
+                                 <li><a href="#">necklace</a></li>
+                                 <li><a href="#">medallion</a></li>
+                                 <li><a href="#">engagement ring</a></li>
+                                 <li><a href="#">costume jewellery</a></li>
+                                 <li><a href="#">brooch</a></li>
+                                 <li><a href="#">signet ring</a></li>
+                              </ul>
+                           </li>
+                           <li class="listMenu">
+                              <div class="row listTitle">shop by collections</div>
+                              <ul class="nav megaInnerMenu">
+                                 <li><a href="#">Ring</a></li>
+                                 <li><a href="#">Bracelet</a></li>
+                                 <li><a href="#">Bangle</a></li>
+                                 <li><a href="#">Link, Chain</a></li>
+                                 <li><a href="#">Stud</a></li>
+                                 <li><a href="#">Ear-Ring, Tops</a></li>
+                                 <li><a href="#">Brooch</a></li>
+                              </ul>
+                           </li>
+                           <li class="boxMenu">
+                              <div class="row listTitle">
+                                 shop by categories <a href="product.html">shop all <i class="fas fa-caret-right"></i></a>
+                              </div>
+                              <ul class="nav megaInnerMenu row m0">
+                                 <li>
+                                    <a href="product2.html">
+                                       <div class="row m0 imgHov">
+                                          <img src="images/menu/1.png" alt="">
+                                          <div class="row m0 hovCnt">
+                                             <div class="row m0 hovCntInner">
+                                                shop now <i class="fas fa-caret-right"></i>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="row m0 menuTitle">Earrings</div>
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="product.html">
+                                       <div class="row m0 imgHov">
+                                          <img src="images/menu/2.png" alt="">
+                                          <div class="row m0 hovCnt">
+                                             <div class="row m0 hovCntInner">
+                                                shop now <i class="fas fa-caret-right"></i>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="row m0 menuTitle">Brooch</div>
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="product2.html">
+                                       <div class="row m0 imgHov">
+                                          <img src="images/menu/3.png" alt="">
+                                          <div class="row m0 hovCnt">
+                                             <div class="row m0 hovCntInner">
+                                                shop now <i class="fas fa-caret-right"></i>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="row m0 menuTitle">Necklace</div>
+                                    </a>
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Product Category</a>
+                        <ul class="dropdown-menu" role="menu">
+                           <li><a href="product.html">Products</a></li>
+                           <li><a href="product2.html">Products 2</a></li>
+                           <li><a href="single-product.html">Single Product</a></li>
+                           <li><a href="catalog.html">Catalog</a></li>
+                           <li><a href="cart.html">Cart</a></li>
+                           <li><a href="checkout.html">Checkout</a></li>
+                        </ul>
+                     </li>
+                     <li><a href="#">Necklaces</a></li>
+                     <li><a href="blog.html">Blog</a></li>
+                     <li><a href="contact.html">Contact Us</a></li>
+                     <li class="offers_navbtn" ><a href="#"><i class="fas fa-gift"></i>Offers</a></li>
+                  </ul>
+               </div>
+               <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+         </nav>
+      </header>
+      <!--Header--> 
+      <section id="breadcrumbRow" class="row">
+         <h2>blog</h2>
+         <div class="row pageTitle m0">
+            <div class="container">
+               <h4 class="fleft">blog</h4>
+               <ul class="breadcrumb fright">
+                  <li><a href="index.html">home</a></li>
+                  <li class="active">blog</li>
+               </ul>
+            </div>
+         </div>
+      </section>
+      <section class="row contentRowPad">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-8 col-md-8">
+                  <div class="blog row m0">
+                     <div class="row m0 titleRow">
+                        <div class="fleft date">29<span>Dec</span></div>
+                        <div class="fleft titlePart">
+                           <a href="single-post.html">
+                              <h4 class="blogTitle heading">The place where we are happy</h4>
+                           </a>
+                           <p class="m0">By <a href="#">Admin</a><span>|</span><a href="#">5 Comments</a></p>
+                        </div>
+                     </div>
+                     <div class="row m0 featureImg">
+                        <img src="images/blog/bloglist1.png" alt="">
+                     </div>
+                     <div class="row m0 excerpt">
+                        Sunny Days sweepin' the clouds away. On my way to where the air is sweet. Can you tell me how to get how to get to Sesame Street. And when the odds are against him and their dangers work to do. You bet your life Speed Racer he will see it through. Till the one day when the lady met this fellow.
+                     </div>
+                  </div>
+                  <!--Blog Row End-->
+                  <div class="blog row m0">
+                     <div class="row m0 titleRow">
+                        <div class="fleft date">29<span>Dec</span></div>
+                        <div class="fleft titlePart">
+                           <a href="single-post.html">
+                              <h4 class="blogTitle heading">New products of the week standard post</h4>
+                           </a>
+                           <p class="m0">By <a href="#">Admin</a><span>|</span><a href="#">5 Comments</a></p>
+                        </div>
+                     </div>
+                     <div class="row m0 featureImg">
+                        <img src="images/blog/bloglist2.png" alt="">
+                     </div>
+                     <div class="row m0 excerpt">
+                        It's time to light the lights. It's time to meet the Muppets on the Muppet Show tonight. Knight Rider: A shadowy flight into the dangerous world of a man  It's time to light the lights. It's time to meet the Muppets on the Muppet Show tonight. Knight Rider: A shadowy flight into the dangerous world of a man
+                     </div>
+                  </div>
+                  <!--Blog Row End-->
+                  <div class="blog row m0">
+                     <div class="row m0 titleRow">
+                        <div class="fleft date">30<span>Dec</span></div>
+                        <div class="fleft titlePart">
+                           <a href="single-post.html">
+                              <h4 class="blogTitle heading">people know the beauty of nature</h4>
+                           </a>
+                           <p class="m0">By <a href="#">Admin</a><span>|</span><a href="#">5 Comments</a></p>
+                        </div>
+                     </div>
+                     <div class="row m0 featureImg">
+                        <img src="images/blog/bloglist3.png" alt="">
+                     </div>
+                     <div class="row m0 excerpt">
+                        I never thought I could feel so free! The movie star the professor and Mary Ann here on Gilligans Isle. Michael Knight a young loner on a crusade to champion never thought I could feel so free! The movie star the professor and Mary Ann here on Gilligans Isle. Michael Knight a young loner on a crusade to champion.
+                     </div>
+                  </div>
+                  <!--Blog Row End-->
+                  <div class="blog row m0">
+                     <div class="row m0 titleRow">
+                        <div class="fleft date">30<span>Dec</span></div>
+                        <div class="fleft titlePart">
+                           <a href="single-post.html">
+                              <h4 class="blogTitle heading">i can enjoy the mega beats of city street</h4>
+                           </a>
+                           <p class="m0">By <a href="#">Admin</a><span>|</span><a href="#">5 Comments</a></p>
+                        </div>
+                     </div>
+                     <div class="row m0 featureImg">
+                        <img src="images/blog/bloglist4.png" alt="">
+                     </div>
+                     <div class="row m0 excerpt">
+                        I never thought I could feel so free. It's time to put on makeup. It's time to dress up right. It's time to raise the curtain on the Muppet Show tonight. I never thought I could feel so free. It's time to put on makeup. It's time to dress up right. It's time to raise the curtain on the Muppet Show tonight.
+                     </div>
+                  </div>
+                  <!--Blog Row End-->
+                  <div class="blog row m0">
+                     <div class="row m0 titleRow">
+                        <div class="fleft date">31<span>Dec</span></div>
+                        <div class="fleft titlePart">
+                           <a href="single-post.html">
+                              <h4 class="blogTitle heading">make the adventure tour with friends</h4>
+                           </a>
+                           <p class="m0">By <a href="#">Admin</a><span>|</span><a href="#">5 Comments</a></p>
+                        </div>
+                     </div>
+                     <div class="row m0 featureImg">
+                        <img src="images/blog/bloglist5.png" alt="">
+                     </div>
+                     <div class="row m0 excerpt">
+                        Today still wanted by the government they survive as soldiers of fortune. A man is born he's a man of means. Then along come two they got nothin' but their jeans. Today still wanted by the government they survive as soldiers of fortune. A man is born he's a man of means. Then along come two they got nothin' but their jeans.
+                     </div>
+                  </div>
+                  <!--Blog Row End-->
+               </div>
+               <div class="col-sm-4 col-md-4">
+                  <div class="row m0 sidebar">
+                     <form action="#" class="searchForm row m0">
+                        <div class="input-group">
+                           <input type="search" class="form-control" placeholder="Search">
+                           <span class="input-group-addon p0">
+                           <button type="submit"><i class="fas fa-search"></i></button>
+                           </span>
+                        </div>
+                     </form>
+                     <!--Shortcode Element-->
+                     <div class="row m0 categories">
+                        <h4 class="heading">categories</h4>
+                        <ul class="list-unstyled">
+                           <li>Architecture</li>
+                           <li>Beauty</li>
+                           <li>Cars</li>
+                           <li>Entertainment</li>
+                           <li>People</li>
+                           <li>Templates</li>
+                           <li>Tour</li>
+                        </ul>
+                     </div>
+                     <!--Shortcode Element-->
+                     <div class="row m0 latestPosts">
+                        <h4 class="heading">Latest post</h4>
+                        <div class="media latestPost">
+                           <div class="media-left">
+                              <a href="#">
+                              <img src="images/blog/lt1.png" alt="">
+                              </a>
+                           </div>
+                           <div class="media-body">
+                              <h5 class="heading">you can contribute</h5>
+                              <p>Dec 14, 2020</p>
+                           </div>
+                        </div>
+                        <div class="media latestPost">
+                           <div class="media-left">
+                              <a href="#">
+                              <img src="images/blog/lt2.png" alt="">
+                              </a>
+                           </div>
+                           <div class="media-body">
+                              <h5 class="heading">best site for sofas</h5>
+                              <p>Dec 14, 2020</p>
+                           </div>
+                        </div>
+                        <div class="media latestPost">
+                           <div class="media-left">
+                              <a href="#">
+                              <img src="images/blog/lt3.png" alt="">
+                              </a>
+                           </div>
+                           <div class="media-body">
+                              <h5 class="heading">entertainment weeks</h5>
+                              <p>Dec 14, 2020</p>
+                           </div>
+                        </div>
+                        <div class="media latestPost">
+                           <div class="media-left">
+                              <a href="#">
+                              <img src="images/blog/lt4.png" alt="">
+                              </a>
+                           </div>
+                           <div class="media-body">
+                              <h5 class="heading">people you may know</h5>
+                              <p>Dec 14, 2020</p>
+                           </div>
+                        </div>
+                        <div class="media latestPost">
+                           <div class="media-left">
+                              <a href="#">
+                              <img src="images/blog/lt5.png" alt="">
+                              </a>
+                           </div>
+                           <div class="media-body">
+                              <h5 class="heading">manufacture tips -1</h5>
+                              <p>Dec 14, 2020</p>
+                           </div>
+                        </div>
+                     </div>
+                     <!--Shortcode Element-->
+                     <div class="row m0 tags">
+                        <h4 class="heading">tags</h4>
+                        <ul class="nav tagsNav">
+                           <li><a href="#">Art</a></li>
+                           <li><a href="#">Beauty</a></li>
+                           <li><a href="#">Business</a></li>
+                           <li><a href="#">Gallery</a></li>
+                           <li><a href="#">Games</a></li>
+                           <li><a href="#">Images</a></li>
+                           <li><a href="#">People</a></li>
+                           <li><a href="#">Travelling</a></li>
+                        </ul>
+                     </div>
+                     <!--Shortcode Element-->
+                     <div class="row m0 flickrPhoto">
+                        <h4 class="heading">flickr photostream</h4>
+                        <ul class="list-inline">
+                           <li><a href="#"><img src="images/flickr/1.png" alt=""></a></li>
+                           <li><a href="#"><img src="images/flickr/2.png" alt=""></a></li>
+                           <li><a href="#"><img src="images/flickr/3.png" alt=""></a></li>
+                           <li><a href="#"><img src="images/flickr/4.png" alt=""></a></li>
+                           <li><a href="#"><img src="images/flickr/5.png" alt=""></a></li>
+                           <li><a href="#"><img src="images/flickr/6.png" alt=""></a></li>
+                        </ul>
+                     </div>
+                     <!--Shortcode Element-->
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer class="row">
+         <div class="row m0 topFooter">
+            <div class="container line1">
+               <div class="row footFeatures">
+                  <div class="col-sm-4 footFeature">
+                     <div class="media">
+                        <div class="media-left icon"><img src="images/icons/car3.png" alt=""></div>
+                        <div class="media-body texts">
+                           <h4>free shipping</h4>
+                           <h2>International</h2>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-4 footFeature">
+                     <div class="media m0">
+                        <div class="media-left icon"><img src="images/icons/tel24-7_2.png" alt=""></div>
+                        <div class="media-body texts">
+                           <h4>24 hours helpline</h4>
+                           <h2>XXX</h2>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-4 footFeature">
+                     <div class="media m0">
+                        <div class="media-left icon"><img src="images/icons/shopping-bag2.png" alt=""></div>
+                        <div class="media-body texts">
+                           <h4>see our</h4>
+                           <h2>latest offers</h2>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="container line2">
+               <div class="row">
+                  <div class="col-sm-3 widget">
+                     <div class="row m0">
+                        <h4>About Dshine</h4>
+                        <p>We provide the best Quality of products to you.We are always here to help our lovely customers.</p>
+                        <ul class="list-inline">
+                           <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                           <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                           <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                           <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                           <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-sm-3 widget">
+                     <div class="row m0">
+                        <h4>information</h4>
+                        <ul class="nav">
+                           <li><a href="about.html">About Us</a></li>
+                           <li><a href="blog.html">Blog</a></li>
+                           <li><a href="#">Careers</a></li>
+                           <li><a href="#">Top Brands</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-sm-3 widget">
+                     <div class="row m0">
+                        <h4>top brands</h4>
+                        <ul class="nav">
+                           <li><a href="#">Fusce iaculis</a></li>
+                           <li><a href="#">Nisl dapibus</a></li>
+                           <li><a href="#">Vulputate sapien</a></li>
+                           <li><a href="#">Aliquet</a></li>
+                           <li><a href="#">Risus feugiat</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-sm-3 widget">
+                     <div class="row m0">
+                        <h4>subscribe to our latest news</h4>
+                        <form action="subscriptionList.php" method="post" role="form">
+                           <div class="input-group">
+                              <span class="input-group-addon"><i class="fas fa-envelope"></i></span>
+                              <input type="email" class="form-control" id="subscribeEmail" name="subscribeEmail" placeholder="EMAIL ADDRESS">
+                           </div>
+                           <input type="submit" class="form-control" value="Subscribe" id="submit" name="submit">
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row m0 copyRight">
+            <div class="container">
+               <div class="row">
+                  <div class="fleft">Copyright &copy; 2020.Company name All rights reserved.</div>
+                  <ul class="nav nav-pills fright">
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="about.html">about</a></li>
+                     <li><a href="blog.html">blog</a></li>
+                     <li><a href="contact.html">contact</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!--jQuery, Bootstrap and other vendor JS-->
+      <!--jQuery-->
+      <script src="js/jquery-2.1.3.min.js"></script>
+      <!--Google Maps-->
+      <script src="http://ditu.google.cn/maps/api/js"></script>
+      <!--Bootstrap JS-->
+      <script src="js/bootstrap.min.js"></script>
+      
+      <!--Owl Carousel-->
+      <script src="vendors/owl.carousel/js/owl.carousel.min.js"></script>
+      <!--Isotope-->
+      <script src="vendors/isotope/isotope-custom.js"></script>
+      <!--FlexSlider-->
+      <script src="vendors/flexslider/jquery.flexslider-min.js"></script>
+      <!--D-shine JS-->
+      <script src="js/d-shine.js"></script>
+   </body>
+</html>
+
