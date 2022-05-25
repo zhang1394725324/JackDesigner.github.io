@@ -1,0 +1,1383 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    
+    <!--Favicons-->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+
+    <meta name="theme-color" content="#ffffff">
+    
+    <!--Bootstrap and Other Vendors-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="vendors/owl.carousel/css/owl.carousel.css">    
+    
+     
+    <link rel="stylesheet" type="text/css" href="vendors/flexslider/flexslider.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="vendors/bootstrap-rating/bootstrap-rating.css" media="screen" />
+    
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">  
+    
+    <!--Mechanic Styles-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+
+      <a href="#" id="back-to-top" title="Back to top">&uarr;</a>
+    
+    <header class="row" id="header">
+        <div class="row m0 logo_line">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5 logo">
+                        <a href="index.html" class="logo_a"><img src="images/dshine-logo.png" alt="D-shine">
+                        </a>
+                    </div>
+                    <div class="col-sm-7 searchSec">
+                       <div class="col-sm-12">
+                        <div class="fright wishlistCompare">
+                            <ul class="nav">
+                                <li>
+                                  <a href="#">
+                                   <span class="wish">
+                                    <i class="fas fa-heart"></i>
+                                     3 
+                                   </span>
+                                   <span>Wishlist</span>
+                                  </a>
+                                </li>
+                                <li class="h_cart">
+                                  <a href="cart.html">
+                                   <span class="wish">
+                                    <i class="fas fa-gem"></i>
+                                     2 
+                                   </span>
+                                   <span>My cart</span>
+                                  </a>
+                                   <div class="hclist"> 
+                                   <div class="table-responsive">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th class="productImage">Product image</th>
+                                                    <th class="productName">Product name</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="alert" role="alert">
+                                                    <td class="productImage"><img src="images/product/single/l1.png" alt=""></td>
+                                                    <td class="productName">
+                                                        <h6 class="heading">Gold Plated Charm</h6>
+                                                         <div class="input-group spinner">
+                                                            <input class="form-control" value="1" type="text">
+                                                            <div class="input-group-btn-vertical">
+                                                                <button class="btn btn-default"><i class="fas fa-angle-up"></i></button>
+                                                                <button class="btn btn-default"><i class="fas fa-angle-down"></i></button>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td><a href="#" class="edit" data-dismiss="alert" aria-label="Close"><i class="far fa-trash-alt"></i></a></td>
+                                                </tr>
+                                                <tr class="alert" role="alert">
+                                                    <td class="productImage"><img src="images/product/single/l1.png" alt=""></td>
+                                                    <td class="productName">
+                                                        <h6 class="heading">Zephyrr Stones</h6>
+                                                         <div class="input-group spinner">
+                                                            <input class="form-control" value="1" type="text">
+                                                            <div class="input-group-btn-vertical">
+                                                                <button class="btn btn-default"><i class="fas fa-angle-up"></i></button>
+                                                                <button class="btn btn-default"><i class="fas fa-angle-down"></i></button>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td><a href="#" class="edit" data-dismiss="alert" aria-label="Close"><i class="far fa-trash-alt"></i></a></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>                            
+                        </div>
+                        <div class="col-sm-12">
+                        <div class="fright searchForm">
+                            <form action="#" method="get">
+                                <div class="input-group">
+                                    <input type="hidden" name="search_param" value="all" id="search_param">
+                                    <input type="search" class="form-control" placeholder="Search Products">
+                                   
+                                    <span class="input-group-btn searchIco">
+                                        <button class="btn btn-default" type="submit"><i class="fas fa-search"></i></button>
+                                    </span>
+                                </div><!-- /input-group -->
+                            </form>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-default m0 navbar-static-top">
+            <div class="container-fluid container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNav">
+                        <i class="fas fa-bars"></i> MENU
+                    </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="index.html"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Home</a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="index.html">Home Default</a></li>
+                                <li><a href="index2.html">Home 2 - Menu 2</a></li>
+                                <li><a href="index3.html">Home 3 - Menu 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about.html">About</a></li>
+                        <li class="active dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Pages</a>
+                            <ul class="dropdown-menu" role="menu">
+                                
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="single-post.html">Single Post</a></li>
+                                <li><a href="shortcodes.html">Shortcodes</a></li>
+                                <li><a href="innerpage-dark.html">Inner Page Dark</a></li>
+                                <li><a href="404.html">404</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown megaMenu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Mega Menu</a>
+                            <ul class="dropdown-menu row m0" role="menu">
+                                <li class="listMenu">
+                                    <div class="row listTitle">Jewelery &amp; sectionals</div>
+                                    <ul class="nav megaInnerMenu">
+                                        <li><a href="#">wedding ring</a></li>
+                                        <li><a href="#">pendant</a></li>
+                                        <li><a href="#">nosering</a></li>
+                                        <li><a href="#">necklace</a></li>
+                                        <li><a href="#">medallion</a></li>
+                                        <li><a href="#">engagement ring</a></li>
+                                        <li><a href="#">costume jewellery</a></li>
+                                        <li><a href="#">brooch</a></li>
+                                        <li><a href="#">signet ring</a></li>
+                                    </ul>
+                                </li>
+                                <li class="listMenu">
+                                    <div class="row listTitle">shop by collections</div>
+                                     <ul class="nav megaInnerMenu">
+                                        <li><a href="#">Ring</a></li>
+                                        <li><a href="#">Bracelet</a></li>
+                                        <li><a href="#">Bangle</a></li>
+                                        <li><a href="#">Link, Chain</a></li>
+                                        <li><a href="#">Stud</a></li>
+                                        <li><a href="#">Ear-Ring, Tops</a></li>
+                                        <li><a href="#">Brooch</a></li>
+                                    </ul>
+                                </li>
+                                <li class="boxMenu">
+                                    <div class="row listTitle">
+                                        shop by categories <a href="product.html">shop all <i class="fas fa-caret-right"></i></a>
+                                    </div>
+                                    <ul class="nav megaInnerMenu row m0">
+                                        <li><a href="product2.html">
+                                            <div class="row m0 imgHov">
+                                                <img src="images/menu/1.png" alt="">
+                                                <div class="row m0 hovCnt">
+                                                    <div class="row m0 hovCntInner">
+                                                        shop now <i class="fas fa-caret-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row m0 menuTitle">Office jewelry</div>
+                                        </a></li>
+                                        <li><a href="product.html">
+                                            <div class="row m0 imgHov">
+                                                <img src="images/menu/2.png" alt="">
+                                                <div class="row m0 hovCnt">
+                                                    <div class="row m0 hovCntInner">
+                                                        shop now <i class="fas fa-caret-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row m0 menuTitle">sofas &amp; bed</div>
+                                        </a></li>
+                                        <li><a href="product2.html">
+                                            <div class="row m0 imgHov">
+                                                <img src="images/menu/3.png" alt="">
+                                                <div class="row m0 hovCnt">
+                                                    <div class="row m0 hovCntInner">
+                                                        shop now <i class="fas fa-caret-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row m0 menuTitle">dinning tables</div>
+                                        </a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>                        
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Product Category</a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="product.html">Products</a></li>
+                                <li><a href="product2.html">Products 2</a></li>
+                                <li><a href="single-product.html">Single Product</a></li>
+                                <li><a href="catalog.html">Catalog</a></li>
+                                <li><a href="cart.html">Cart</a></li>
+                                <li><a href="checkout.html">Checkout</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Necklaces</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li class="offers_navbtn" ><a href="#"><i class="fas fa-gift"></i>Offers</a></li>
+                    </ul>              
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </header> <!--Header-->
+    
+    <section id="breadcrumbRow" class="row">
+        <h2>shortcodes</h2>
+        <div class="row pageTitle m0">
+            <div class="container">
+                <h4 class="fleft">shortcodes</h4>
+                <ul class="breadcrumb fright">
+                    <li><a href="index.html">home</a></li>
+                    <li class="active">shortcodes</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="headings" class="row shortcodesRow">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="row m0 mb30">
+                        <h1 class="heading">Heading-H1</h1>
+                        <p>Aenean eu leo quam. Pellentesque ornadsgxare semetrt mo  lacinia quam venenatis vestibulum. Nulla vitae elit liberero, avelitu pharetra Etiamums malesuada. magna mollis euismod.</p>                        
+                    </div>
+                    <div class="row m0 mb30">
+                        <h3 class="heading">Heading-H3</h3>
+                        <p>Aenean eu leo quam. Pellentesque ornadsgxare semetrt mo  lacinia quam venenatis vestibulum. Nulla vitae elit liberero, avelitu pharetra Etiamums malesuada. magna mollis euismod.</p>                        
+                    </div>
+                    <div class="row m0">
+                        <h5 class="heading">Heading-H5</h5>
+                        <p>Aenean eu leo quam. Pellentesque ornadsgxare semetrt mo  lacinia quam venenatis vestibulum. Nulla vitae elit liberero, avelitu pharetra Etiamums malesuada. magna mollis euismod.</p>                        
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="row m0 mb30">
+                        <h2 class="heading">Heading-H2</h2>
+                        <p>Aenean eu leo quam. Pellentesque ornadsgxare semetrt mo  lacinia quam venenatis vestibulum. Nulla vitae elit liberero, avelitu pharetra Etiamums malesuada. magna mollis euismod.</p>                        
+                    </div>
+                    <div class="row m0 mb30">
+                        <h4 class="heading">Heading-H4</h4>
+                        <p>Aenean eu leo quam. Pellentesque ornadsgxare semetrt mo  lacinia quam venenatis vestibulum. Nulla vitae elit liberero, avelitu pharetra Etiamums malesuada. magna mollis euismod.</p>                        
+                    </div>
+                    <div class="row m0">
+                        <h6 class="heading">Heading-H6</h6>
+                        <p>Aenean eu leo quam. Pellentesque ornadsgxare semetrt mo  lacinia quam venenatis vestibulum. Nulla vitae elit liberero, avelitu pharetra Etiamums malesuada. magna mollis euismod.</p>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="buttons" class="row shortcodesRow">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h4 class="shortcodeHeading">buttons - filled</h4>
+                    <div class="row mb15">
+                        <div class="col-sm-4"><button class="btn btn-default btn-sm filled">read more</button></div>
+                        <div class="col-sm-4"><button class="btn btn-default filled">read more</button></div>
+                        <div class="col-sm-4"><button class="btn btn-default btn-lg filled">read more</button></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4"><button class="btn btn-primary btn-sm filled">read more</button></div>
+                        <div class="col-sm-4"><button class="btn btn-primary filled">read more</button></div>
+                        <div class="col-sm-4"><button class="btn btn-primary btn-lg filled">read more</button></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h4 class="shortcodeHeading">buttons - without filled</h4>
+                    <div class="row mb15">
+                        <div class="col-sm-4"><button class="btn btn-default btn-sm">read more</button></div>
+                        <div class="col-sm-4"><button class="btn btn-default">read more</button></div>
+                        <div class="col-sm-4"><button class="btn btn-default btn-lg">read more</button></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4"><button class="btn btn-primary btn-sm">read more</button></div>
+                        <div class="col-sm-4"><button class="btn btn-primary">read more</button></div>
+                        <div class="col-sm-4"><button class="btn btn-primary btn-lg">read more</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="highlights" class="row shortcodesRow">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h4 class="shortcodeHeading">Highlights</h4>
+                    <p>Neque <abbr title="HyperText Markup Language" class="initialism">html</abbr> <abbr title="HyperText Markup Language">css</abbr> quisquam est, <span class="primary-bg">qui dolorem ipsum quia dolor</span> sit amete conret sectet man adipisci velit, sed quia non porro numquam.eius modi tempora incistae dunt ut labore et dolore <span class="base-bg">magnam aliquam quaerat voluptatem.</span> Ut enim ad minima veniam, quis nosu trum exercitationem ullam corporis suscipit laboriosam Neque porro <span class="bold_italic">quisquam</span> est qui dolorem <span class="bold">ipsum</span> quia dolor sit amete conret sectetur, adipisci velit.</p>
+                </div>
+                <div class="col-sm-6">
+                    <h4 class="shortcodeHeading">Tooltips</h4>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia <span data-toggle="tooltip" data-placement="top" title="Tooltip Title Here">dolor sit amete conret</span> sectet man adipisci velit, sed quia non porro numquam.eius <span data-toggle="tooltip" data-placement="right" title="Tooltip Title Here">modi tempora incistae dunt</span> ut labore et dolore magnam aliquam quaerat voluptatem. <span data-toggle="tooltip" data-placement="bottom" title="Tooltip Title Here">Ut enim ad minima</span> veniam, quis nosu trum exercitationem ullam corporis suscipit laboriosam Neque porro quisquam est qui dolorem ipsum <span data-toggle="tooltip" data-placement="left" title="Tooltip Title Here">quia dolor sit amete conret</span> sectetur, adipisci velit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="dropCaps" class="row shortcodesRow">
+        <div class="container">
+            <h4 class="shortcodeHeading">Drop Caps</h4>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="dropcap dropcaFill">FNeque porro quisquam est, qui dolorem ipsum quia dolor sit amete conret sectetur, adipisci velit, sed quia non numquam eius modi tempora incistae dunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam Neque porro quisquam est, qui dolorem ipsum quia dolor sit amete conret sectet man adipisci velit, sed quia non porro numquam.</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="dropcap dropcaBox">FNeque porro quisquam est, qui dolorem ipsum quia dolor sit amete conret sectetur, adipisci velit, sed quia non numquam eius modi tempora incistae dunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam Neque porro quisquam est, qui dolorem ipsum quia dolor sit amete conret sectet man adipisci velit, sed quia non porro numquam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="tabsAccordion" class="row shortcodesRow">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h4 class="shortcodeHeading">Tabs</h4>
+                    <div class="row m0 tabRow">
+                        <ul class="nav nav-tabs" role="tablist" id="shortcodeTab">
+                            <li role="presentation" class="active"><a href="#description" aria-controls="description" role="tab" data-toggle="tab">
+                                <i class="fas fa-align-left"></i> description
+                            </a></li>
+                            <li role="presentation"><a href="#review" aria-controls="review" role="tab" data-toggle="tab">
+                                <i class="fas fa-thumbs-up"></i> review (1)
+                            </a></li>
+                            <li role="presentation"><a href="#additionInfo" aria-controls="additionInfo" role="tab" data-toggle="tab">
+                                <i class="fas fa-file-text"></i> Additional Information
+                            </a></li>
+                        </ul>
+                        <div class="tab-content shortcodeTabContent">
+                            <div role="tabpanel" class="tab-pane row m0 active" id="description">
+                                <div class="fleft img"><img class="img-responsive" src="images/gridImage/4.png" alt=""></div>
+                                <div class="fleft desc">
+                                    <h5 class="heading">Product Details</h5>
+                                    <p>Dining jewelry designs are plain in appearance, stripped to bare essentials (few turnings, no decorations), featuring natural materials; no ornamentation; strong emphasis on function.</p>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane row m0" id="review">
+                                <div class="row m0 reviewCount">1 review for this product</div>
+                                <div class="row m0 reviewBody">
+                                    <span class="bold">4</span> out of 5 <br>
+                                    <span class="bold">K Admas</span> - March 10, 2020
+                                    <p class="m0">Amazing Product!</p>
+                                </div>
+                                <div class="row m0 reviewAdd">
+                                    <h4 class="heading">Add a review</h4>
+                                    <form action="#" role="form" method="post" class="row m0 reviewForm">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <input type="text" class="form-control" placeholder="Your Name *" required>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <input type="email" class="form-control" placeholder="Your Email *" required>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <input type="url" class="form-control" placeholder="Your Website">
+                                            </div>
+                                            <div class="col-sm-6 ratingStars">
+                                                Your Rating <input type="hidden" class="rating" data-fractions="2">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <h4 class="heading">Your Review</h4>
+                                                <textarea name="reviewText" id="reviewText" class="form-control reviewText"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <input type="submit" class="btn btn-primary filled">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane row m0" id="additionInfo">
+                                <div class="row m0 additionInfoRow">
+                                    <div class="fleft infoTitle">Material</div>
+                                    <div class="fleft infos">Gold</div>
+                                </div>
+                                <div class="row m0 additionInfoRow">
+                                    <div class="fleft infoTitle">Stone </div>
+                                    <div class="fleft infos">Diamond</div>
+                                </div>
+                                 <div class="row m0 additionInfoRow">
+                                    <div class="fleft infoTitle">Resizable?  </div>
+                                    <div class="fleft infos">No</div>
+                                </div>
+                                <div class="row m0 additionInfoRow">
+                                    <div class="fleft infoTitle">Item Height </div>
+                                    <div class="fleft infos">4.3 Millimeters </div>
+                                </div>
+                                <div class="row m0 additionInfoRow">
+                                    <div class="fleft infoTitle">Item Width</div>
+                                    <div class="fleft infos">2.5 Millimeters </div>
+                                </div>
+                                <div class="row m0 additionInfoRow">
+                                    <div class="fleft infoTitle">Item Width</div>
+                                    <div class="fleft infos">2.5 Millimeters </div>
+                                </div>
+                                 <div class="row m0 additionInfoRow">
+                                    <div class="fleft infoTitle">Ring Size</div>
+                                    <div class="fleft infos">7</div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="row m0 accordionRow">
+                        <h4 class="shortcodeHeading">Accordion</h4>
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="not_collapsed collapsed">
+                                            <i class="fas fa-align-left"></i> description
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                                    <div class="panel-body">
+                                        Dining jewelry designs are plain in appearance, stripped to bare essentials (few turnings, no decorations), featuring natural materials; no ornamentation; strong emphasis on function.
+                                    </div>
+                                </div>
+                            </div> <!--Accord One-->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title">
+                                        <a class="not_collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            <i class="fas fa-thumbs-up"></i> review
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+                                        Dining jewelry designs are plain in appearance, stripped to bare essentials (few turnings, no decorations), featuring natural materials; no ornamentation; strong emphasis on function.
+                                    </div>
+                                </div>
+                            </div> <!--Accord Two-->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingThree">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed not_collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            <i class="fas fa-file-text"></i> Additional Information
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                    <div class="panel-body">
+                                        Dining jewelry designs are plain in appearance, stripped to bare essentials (few turnings, no decorations), featuring natural materials; no ornamentation; strong emphasis on function.
+                                    </div>
+                                </div>
+                            </div> <!--Accord Three-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<!--     <section id="ourGreatServices" class="row shortcodesRow">
+        <div class="container">
+            <h4 class="shortcodeHeading">Services Style - 1</h4>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="row m0 sideBox">
+                        <div class="row imgB m0">
+                            <img src="images/service1.png" alt="">
+                        </div>
+                        <div class="row m0 icoPlus">
+                            <img src="images/icons/homeB.png" alt=""><br>
+                            <a href="#"><span>Interior Design</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="row m0 middleBox">
+                        <h4>Financing</h4>
+                        <p>We provide the best Quality of products to you.We are always here to help our lovely customers.We ship our products anywhere with more secure.</p>
+                        <a href="#" class="readMore">Read More  <i class="fas fa-angle-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="row m0 sideBox">
+                        <div class="row imgB m0">
+                            <img src="images/service2.png" alt="">
+                        </div>
+                        <div class="row m0 icoPlus">
+                            <img src="images/icons/carB.png" alt=""><br>
+                            <a href="#"><span>Delivery</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    
+   <!--  <section id="serviceStyle2" class="row shortcodesRow">
+        <div class="container">
+            <h4 class="shortcodeHeading">Services Style - 2</h4>
+            <div class="row">
+                <div class="col-sm-4 service2">
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#"><img src="images/icons/usd.png" alt="" class="media-object"></a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="heading">Lowest Price</h4>
+                            <p>We provide the best Quality of products to you.We are always here to help our lovely customers.</p>
+                            <a href="#" class="readMore">Find out more  <i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div> <!--service style 2-1- ->
+                <div class="col-sm-4 service2">
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#"><img src="images/icons/car4.png" alt="" class="media-object"></a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="heading">fast free delivery</h4>
+                            <p>We provide the best Quality of products to you.We are always here to help our lovely customers.</p>
+                            <a href="#" class="readMore">Find out more  <i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div> <!--service style 2-2- ->
+                <div class="col-sm-4 service2">
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#"><img src="images/icons/tel24-7_3.png" alt="" class="media-object"></a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="heading">24-7 help desk</h4>
+                            <p>We provide the best Quality of products to you.We are always here to help our lovely customers.</p>
+                            <a href="#" class="readMore">Find out more  <i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div> <!--service style 2-3-->
+            </div>
+        </div>
+    </section> -->
+    
+    <section id="progressAlerts" class="row shortcodesRow">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h4 class="shortcodeHeading">Progress bar</h4>
+                    <div class="row m0"> <!--progress bar start-->
+                        <h5 class="heading progressTitle">graphic design</h5>
+                        <div class="progress custom_progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="77" aria-valuemin="0" aria-valuemax="100" style="width: 77%;">
+                                <div class="tooltip top" role="tooltip">
+                                    <div class="tooltip-arrow"></div>
+                                    <div class="tooltip-inner">
+                                        77%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!--progress bar-->
+                    <div class="row m0"> <!--progress bar start-->
+                        <h5 class="heading progressTitle">ui &amp; ux design</h5>
+                        <div class="progress custom_progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100" style="width: 89%;">
+                                <div class="tooltip top" role="tooltip">
+                                    <div class="tooltip-arrow"></div>
+                                    <div class="tooltip-inner">
+                                        89%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!--progress bar-->
+                    <div class="row m0"> <!--progress bar start-->
+                        <h5 class="heading progressTitle">wordpress</h5>
+                        <div class="progress custom_progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100" style="width: 97%;">
+                                <div class="tooltip top" role="tooltip">
+                                    <div class="tooltip-arrow"></div>
+                                    <div class="tooltip-inner">
+                                        97%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!--progress bar-->
+                    <div class="row m0"> <!--progress bar start-->
+                        <h5 class="heading progressTitle">photoshop</h5>
+                        <div class="progress custom_progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style="width: 82%;">
+                                <div class="tooltip top" role="tooltip">
+                                    <div class="tooltip-arrow"></div>
+                                    <div class="tooltip-inner">
+                                        82%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!--progress bar-->
+                    <div class="row m0"> <!--progress bar start-->
+                        <h5 class="heading progressTitle">html &amp; css</h5>
+                        <div class="progress custom_progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="93" aria-valuemin="0" aria-valuemax="100" style="width: 93%;">
+                                <div class="tooltip top" role="tooltip">
+                                    <div class="tooltip-arrow"></div>
+                                    <div class="tooltip-inner">
+                                        93%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!--progress bar-->
+                </div>
+                <div class="col-sm-6">
+                    <h4 class="shortcodeHeading">alerts</h4>
+                    
+                    <div class="alert customAlert success-alert" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <i class="fas fa-check"></i> success! conformation message here! 
+                    </div> <!--Alert-->
+                    
+                    <div class="alert customAlert error-alert" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <i class="fas fa-close"></i> error! error message here and suggested solution! 
+                    </div> <!--Alert-->
+                    
+                    <div class="alert customAlert warning-alert" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <i class="fas fa-warning"></i> warning! warning message here! 
+                    </div> <!--Alert-->
+                    
+                    <div class="alert customAlert notification-alert" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <i class="fas fa-exclamation"></i> information! information message here! 
+                    </div> <!--Alert-->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="ourTeam" class="row shortcodesRow">
+        <div class="container">
+            <h4 class="shortcodeHeading">Team Style</h4>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="thumbnail">
+                        <img src="images/team/1.png" alt="...">
+                        <div class="caption">
+                            <h4>Rues jack</h4>
+                            <h5>Founder</h5>
+                            <ul class="list-inline row m0">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="thumbnail">
+                        <img src="images/team/2.png" alt="...">
+                        <div class="caption">
+                            <h4>steve broad</h4>
+                            <h5>Co-Founder</h5>
+                            <ul class="list-inline row m0">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="thumbnail">
+                        <img src="images/team/3.png" alt="...">
+                        <div class="caption">
+                            <h4>olius lisa</h4>
+                            <h5>Manager</h5>
+                            <ul class="list-inline row m0">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="thumbnail">
+                        <img src="images/team/4.png" alt="...">
+                        <div class="caption">
+                            <h4>samuel burn</h4>
+                            <h5>Employee</h5>
+                            <ul class="list-inline row m0">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="row shortcodesRow outerShortCodeHeading">
+        <div class="container">
+            <h4 class="shortcodeHeading">Textimonials style - 1</h4>
+        </div>
+    </section>
+    <section id="testimonialTabs" class="row contentRowPad">
+        <div class="container">
+            <div class="row sectionTitle">
+                <h3>some words from our customers</h3>
+                <h5>we satisfied more than 700 customers</h5>
+            </div>
+            <div class="row">
+
+
+                <div class="tab-content testiTabContent">
+                    <div role="tabpanel" class="tab-pane active" id="testi1">
+                       
+                        <p><span class="t_q_start">“</span> D-Shine is really excellent site for jewellery. I am very happy with the D-Shine products and dedicated services from them. D-Shine is really excellent site for jewellery. <span class="t_q_end">”</span></p>
+                         <h5 class="customerName">Dwayne johnson</h5>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="testi2">
+                        <p><span class="t_q_start">“</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum justo accumsan felis faucibus vestibulum. Integer a ex orci. Cras sit amet efficitur nisl, et vestibulum orci. <span class="t_q_end">”</span></p>
+                        <h5 class="customerName">Jonh add</h5>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="testi3">
+
+                        <p><span class="t_q_start">“</span> D-Shine is really excellent site for jewellery. I am very happy with the D-Shine products and dedicated services from them. D-Shine is really excellent site for jewellery. <span class="t_q_end">”</span></p>
+                        <h5 class="customerName">william parker</h5>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="testi4">
+                        <p><span class="t_q_start">“</span> Donec in velit eget lacus convallis dapibus. Nulla ultrices nulla sit amet justo pretium, ut tristique diam ultrices. Nunc efficitur mauris sit amet imperdiet <span class="t_q_end">”</span></p>
+                                                <h5 class="customerName">Will smith</h5>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="testi5">
+                        <p><span class="t_q_start">“</span> D-Shine is really excellent site for jewellery. I am very happy with the D-Shine products and dedicated services from them. D-Shine is really excellent site for jewellery. <span class="t_q_end">”</span></p>
+                        <h5 class="customerName">Dwayne johnson</h5>
+                    </div>
+                </div>
+                 <ul class="nav nav-tabs" role="tablist" id="testiTab">
+                    <li role="presentation" class="active"><a href="#testi1" aria-controls="testi1" role="tab" data-toggle="tab">
+                        <img src="images/testimonial/1.png" alt="">
+                    </a>
+                        <div class="testi_rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half"></i>
+                        </div>
+                    </li>
+                    <li role="presentation"><a href="#testi2" aria-controls="testi2" role="tab" data-toggle="tab">
+                        <img src="images/testimonial/2.png" alt="">
+                    </a>
+                        <div class="testi_rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-o"></i>
+                                <i class="fas fa-star-o"></i>
+                        </div>
+                    </li>
+                    <li role="presentation"><a href="#testi3" aria-controls="testi3" role="tab" data-toggle="tab">
+                        <img src="images/testimonial/3.png" alt="">
+                    </a>
+                        <div class="testi_rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                        </div>
+                    </li>
+                    <li role="presentation"><a href="#testi4" aria-controls="testi4" role="tab" data-toggle="tab">
+                        <img src="images/testimonial/4.png" alt="">
+                    </a>
+                        <div class="testi_rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-o"></i>
+                        </div>
+                    </li>
+                    <li role="presentation"><a href="#testi5" aria-controls="testi5" role="tab" data-toggle="tab">
+                        <img src="images/testimonial/5.png" alt="">
+                    </a>
+                        <div class="testi_rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-o"></i>
+                                <i class="fas fa-star-o"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section> <!--Testimonial Tabs-->
+    
+    <section class="row shortcodesRow outerShortCodeHeading">
+        <div class="container">
+            <h4 class="shortcodeHeading">Textimonials style - 2</h4>
+        </div>
+    </section>
+    <section id="testimonialTabs" class="row contentRowPad">       
+        <div class="container">
+            <div class="row sectionTitle">
+                <h3>some words from our customers</h3>
+                <h5>we satisfied more than 700 customers</h5>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="row m0 testimonialStyle2">
+                        <div class="testiInner">
+                            <p>“ Dshine is really excellent site for jewleryes.I am very happy with the Dshine products and dedicated services from them. Dshine is really excellent site for jewleryes. ”</p>
+                            <div class="row m0 clientInfo">                           
+                                <div class="thumbnail"><img src="images/testimonial/1.png" alt=""></div>
+                                <div class="clientName">smiker will</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="row m0 testimonialStyle2">
+                        <div class="testiInner">
+                            <p>“ Dshine is really excellent site for jewleryes.I am very happy with the Dshine products and dedicated services from them. Dshine is really excellent site for jewleryes. ”</p>
+                            <div class="row m0 clientInfo">                           
+                                <div class="thumbnail"><img src="images/testimonial/5.png" alt=""></div>
+                                <div class="clientName">katrin ruos</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="row m0 testimonialStyle2">
+                        <div class="testiInner">
+                            <p>“ Dshine is really excellent site for jewleryes.I am very happy with the Dshine products and dedicated services from them. Dshine is really excellent site for jewleryes. ”</p>
+                            <div class="row m0 clientInfo">                           
+                                <div class="thumbnail"><img src="images/testimonial/3.png" alt=""></div>
+                                <div class="clientName">dwayne johnson</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="row m0 testimonialStyle2">
+                        <div class="testiInner">
+                            <p>“ Dshine is really excellent site for jewleryes.I am very happy with the Dshine products and dedicated services from them. Dshine is really excellent site for jewleryes. ”</p>
+                            <div class="row m0 clientInfo">                           
+                                <div class="thumbnail"><img src="images/testimonial/4.png" alt=""></div>
+                                <div class="clientName">fumiz roey</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!--Testimonial Tabs-->
+    
+    <section class="row shortcodesRow outerShortCodeHeading">
+        <div class="container">
+            <h4 class="shortcodeHeading">Textimonials style - 3</h4>
+        </div>
+    </section>
+    <section id="testimonialTabs" class="row  contentRowPad">       
+        <div class="container">
+            <h3 class="heading text-center">our happy clients</h3>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="row m0 testimonialStyle3">
+                        <div class="testiText row m0">Dshine is really excellent site for jewleryes.I am very happy with the Dshine products and dedicated services from them. Dshine is really excellent site for jewleryes.</div>
+                        <div class="row m0 clientInfo text-center">
+                            <img src="images/testimonial/5.png" alt="">
+                            <div class="clientName">Chris evans</div>
+                            <ul class="stars list-inline">
+                                <li class="stared"><i class="fas fa-star"></i></li>
+                                <li class="stared"><i class="fas fa-star"></i></li>
+                                <li class="stared"><i class="fas fa-star"></i></li>
+                                <li class="stared"><i class="fas fa-star"></i></li>
+                                <li class="stared"><i class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="row m0 testimonialStyle3">
+                        <div class="testiText row m0">Dshine is really excellent site for jewleryes.I am very happy with the Dshine products and dedicated services from them. Dshine is really excellent site for jewleryes.</div>
+                        <div class="row m0 clientInfo text-center">
+                            <img src="images/testimonial/4.png" alt="">
+                            <div class="clientName">katrin lisa</div>
+                            <ul class="stars list-inline">
+                                <li class="stared"><i class="fas fa-star"></i></li>
+                                <li class="stared"><i class="fas fa-star"></i></li>
+                                <li class="stared"><i class="fas fa-star"></i></li>
+                                <li class="stared"><i class="fas fa-star"></i></li>
+                                <li class=""><i class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="row m0 testimonialStyle3">
+                        <div class="testiText row m0">Dshine is really excellent site for jewleryes.I am very happy with the Dshine products and dedicated services from them. Dshine is really excellent site for jewleryes.</div>
+                        <div class="row m0 clientInfo text-center">
+                            <img src="images/testimonial/3.png" alt="">
+                            <div class="clientName">williams</div>
+                            <ul class="stars list-inline">
+                                <li class="stared"><i class="fas fa-star"></i></li>
+                                <li class="stared"><i class="fas fa-star"></i></li>
+                                <li class="stared"><i class="fas fa-star"></i></li>
+                                <li class=""><i class="fas fa-star"></i></li>
+                                <li class=""><i class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!--Testimonial Tabs-->
+    
+    <section class="row shortcodesRow outerShortCodeHeading">
+        <div class="container">
+            <h4 class="shortcodeHeading">Textimonials style - 4</h4>
+        </div>
+    </section>
+    <section id="testimonialTabs" class="row  contentRowPad">       
+        <div class="container">
+            <h3 class="heading text-center">our happy clients</h3>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="row m0 testimonialStyle4">
+                        <div class="row m0 clientInfo text-center">
+                            <img src="images/testimonial/5.png" alt="">
+                            <div class="clientName">Chris evans</div>
+                            <ul class="stars list-inline">
+                                <li class="stared"><i class="fas fa-star"></i></li>
+                                <li class="stared"><i class="fas fa-star"></i></li>
+                                <li class="stared"><i class="fas fa-star"></i></li>
+                                <li class="stared"><i class="fas fa-star"></i></li>
+                                <li class="stared"><i class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="testiText row m0">Dshine is really excellent site for jewleryes.I am very happy with the Dshine products and dedicated services from them. Dshine is really excellent site for jewleryes.</div>                        
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="row m0 testimonialStyle4">
+                        <div class="row m0 clientInfo text-center">
+                            <img src="images/testimonial/4.png" alt="">
+                            <div class="clientName">katrin lisa</div>
+                            <ul class="stars list-inline">
+                                <li class="stared"><i class="fas fa-star"></i></li>
+                                <li class="stared"><i class="fas fa-star"></i></li>
+                                <li class="stared"><i class="fas fa-star"></i></li>
+                                <li class="stared"><i class="fas fa-star"></i></li>
+                                <li class=""><i class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                        <div class="testiText row m0">Dshine is really excellent site for jewleryes.I am very happy with the Dshine products and dedicated services from them. Dshine is really excellent site for jewleryes.</div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="row m0 testimonialStyle4">
+                        <div class="row m0 clientInfo text-center">
+                            <img src="images/testimonial/3.png" alt="">
+                            <div class="clientName">williams</div>
+                            <ul class="stars list-inline">
+                                <li class="stared"><i class="fas fa-star"></i></li>
+                                <li class="stared"><i class="fas fa-star"></i></li>
+                                <li class="stared"><i class="fas fa-star"></i></li>
+                                <li class=""><i class="fas fa-star"></i></li>
+                                <li class=""><i class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                        <div class="testiText row m0">Dshine is really excellent site for jewleryes.I am very happy with the Dshine products and dedicated services from them. Dshine is really excellent site for jewleryes.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!--Testimonial Tabs-->    
+    
+    
+    <section id="pricing" class="row shortcodesRow">
+        <div class="container">
+            <h4 class="shortcodeHeading">pricing style</h4>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="pricing row m0">
+                        <div class="row m0 pricingTitle">basic</div>
+                        <div class="row features m0">
+                            <div class="row m0 pricePerMonth"><i class="fas fa-usd"></i><span class="amount">175</span>per month</div>
+                            <ul class="list-group">
+                                <li class="list-group-item">3 Chairs</li>
+                                <li class="list-group-item">Delivery in 5 Days</li>
+                                <li class="list-group-item">1 Year Guarantee</li>
+                                <li class="list-group-item">$50 For Shipping</li>
+                            </ul>
+                        </div>
+                        <div class="row m0 joinNow"><a href="#">join now</a></div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="pricing row m0 active">
+                        <div class="row m0 pricingTitle">premium</div>
+                        <div class="row features m0">
+                            <div class="row m0 pricePerMonth"><i class="fas fa-usd"></i><span class="amount">375</span>per month</div>
+                            <ul class="list-group">
+                                <li class="list-group-item">5 Chairs</li>
+                                <li class="list-group-item">Delivery in 5 Days</li>
+                                <li class="list-group-item">1 Year Guarantee</li>
+                                <li class="list-group-item">Free Shipping</li>
+                            </ul>
+                        </div>
+                        <div class="row m0 joinNow"><a href="#">join now</a></div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="pricing row m0">
+                        <div class="row m0 pricingTitle">platinum</div>
+                        <div class="row features m0">
+                            <div class="row m0 pricePerMonth"><i class="fas fa-usd"></i><span class="amount">500</span>per month</div>
+                            <ul class="list-group">
+                                <li class="list-group-item">10 Chairs</li>
+                                <li class="list-group-item">Delivery in 25 Days</li>
+                                <li class="list-group-item">3 Year Guarantee</li>
+                                <li class="list-group-item">Free Shipping</li>
+                            </ul>
+                        </div>
+                        <div class="row m0 joinNow"><a href="#">join now</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    
+    <section id="brands" class="row shortcodesRow">
+        <div class="container">
+            <h4 class="shortcodeHeading row">brands style</h4>
+            <div class="row brands">                
+                <ul class="nav navbar-nav">
+                    <li><a href="#"><img src="images/brands/1.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/brands/2.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/brands/3.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/brands/4.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/brands/5.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/brands/2.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contactBanner" class="row shortcodesRow">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9">
+                    <h3>Bring ideas in your life</h3>
+                    <h5>If you have any ideas! We have a special team to make your design</h5>
+                </div>
+                <div class="col-sm-3">
+                   <a href="contact.html" class="btn">contact us</a>                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="googleMapRow" class="row shortcodesRow">
+        <div class="container">
+            <h4 class="shortcodeHeading row">map location</h4>            
+        </div>
+        <div class="row m0" id="mapBox"></div>
+    </section>
+    
+    <section id="contactRow" class="row contentRowPad">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="row m0">
+                        <h4 class="contactHeading heading">contact form style</h4>
+                    </div>
+                    <div class="row m0 contactForm">
+                        <form class="row m0" id="contactForm" method="post" name="contact" action="contact_process.php">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <label for="name">Name *</label>
+                                    <input type="text" class="form-control" name="name" id="name">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="email">Email *</label>
+                                    <input type="email" class="form-control" name="email" id="email">
+                                </div>
+                            </div>
+                            <div class="row m0">
+                                <label for="subject">subject *</label>
+                                <input type="text" class="form-control" name="subject" id="subject">
+                            </div>
+                            <div class="row m0">
+                                <label for="message">your message</label>
+                                <textarea name="message" id="message" class="form-control"></textarea>
+                            </div>
+                            <div class="row m0 captchaRow">
+                                <img src="images/captcha.png" alt=""><br>
+                                <label for="captcha">Enter the above text</label>
+                                <input type="text" class="form-control" name="captcha" id="captcha">
+                            </div>
+                            <button class="btn btn-primary btn-lg filled" type="submit">send message</button>                            
+                        </form>
+                        <div id="success">
+                                <span class="green textcenter">
+                                    Your message was sent successfully! I will be in touch as soon as I can.
+                                </span>
+                        </div>
+                        <div id="error">
+                            <span>
+                                Something went wrong, try refreshing and submitting the form again.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="row m0">
+                        <h4 class="contactHeading heading">contact info style</h4>
+                    </div>
+                    <div class="media contactInfo">
+                        <div class="media-left">
+                            <i class="fas fa-map-marker"></i>
+                        </div>
+                        <div class="media-body">
+                            <h5 class="heading">where to reach us</h5>
+                            <p>You can reach us at the following address:</p>
+                            <h5>XXX</h5>
+                        </div> 
+                    </div> <!--contactInfo-->
+                    <div class="media contactInfo">
+                        <div class="media-left">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="media-body">
+                            <h5 class="heading">Email us @</h5>
+                            <p>Email your issues and suggestion for the following email addresses: </p>
+                            <h5>XXX</h5>
+                        </div>
+                    </div> <!--contactInfo-->
+                    <div class="media contactInfo">
+                        <div class="media-left">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="media-body">
+                            <h5 class="heading">need to call us?</h5>
+                            <p>From Monday to Friday,10:00 AM - 8:00 PM, call us at:</p>
+                            <h5>XXX</h5>
+                        </div>
+                    </div> <!--contactInfo-->
+                    <div class="media contactInfo">
+                        <div class="media-left">
+                            <i class="fas fa-question"></i>
+                        </div>
+                        <div class="media-body">
+                            <h5 class="heading">we have great support</h5>
+                            <p>We provide the best Quality of products to you.We are always here to help our lovely customers.We ship our products anywhere with more secure. We provide the best Quality of products to you.</p>
+                        </div>
+                    </div> <!--contactInfo-->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="row">
+        <div class="row m0 topFooter">
+            <div class="container line1">
+                <div class="row footFeatures">
+                    <div class="col-sm-4 footFeature">
+                        <div class="media">
+                            <div class="media-left icon"><img src="images/icons/car3.png" alt=""></div>
+                            <div class="media-body texts">
+                                <h4>free shipping</h4>
+                                <h2>International</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 footFeature">
+                        <div class="media m0">
+                            <div class="media-left icon"><img src="images/icons/tel24-7_2.png" alt=""></div>
+                            <div class="media-body texts">
+                                <h4>24 hours helpline</h4>
+                                <h2>XXX</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 footFeature">
+                        <div class="media m0">
+                            <div class="media-left icon"><img src="images/icons/shopping-bag2.png" alt=""></div>
+                            <div class="media-body texts">
+                                <h4>see our</h4>
+                                <h2>latest offers</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container line2">
+                <div class="row">
+                    <div class="col-sm-3 widget">
+                        <div class="row m0">
+                            <h4>About Dshine</h4>
+                            <p>We provide the best Quality of products to you.We are always here to help our lovely customers.</p>
+                            <ul class="list-inline">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 widget">
+                        <div class="row m0">
+                            <h4>information</h4>
+                            <ul class="nav">
+                                <li><a href="about.html">About Us</a></li>
+                                
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Top Brands</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 widget">
+                        <div class="row m0">
+                            <h4>top brands</h4>
+                            <ul class="nav">
+                                <li><a href="#">Fusce iaculis</a></li>
+	                            <li><a href="#">Nisl dapibus</a></li>
+	                            <li><a href="#">Vulputate sapien</a></li>
+	                            <li><a href="#">Aliquet</a></li>
+	                            <li><a href="#">Risus feugiat</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 widget">
+                        <div class="row m0">
+                            <h4>subscribe to our latest news</h4>
+                            <form action="subscriptionList.php" method="post" role="form">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fas fa-envelope"></i></span>
+                                    <input type="email" class="form-control" id="subscribeEmail" name="subscribeEmail" placeholder="EMAIL ADDRESS">
+                                </div>
+                                <input type="submit" class="form-control" value="Subscribe" id="submit" name="submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row m0 copyRight">
+            <div class="container">
+                <div class="row">
+                    <div class="fleft">Copyright &copy; 2020.Company name All rights reserved.</div>
+                    <ul class="nav nav-pills fright">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="blog.html">blog</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    
+   
+    <!--jQuery, Bootstrap and other vendor JS-->
+    
+    <!--jQuery-->
+    <script src="js/jquery-2.1.3.min.js"></script>
+
+    <!--Google Maps-->
+    <script src="http://ditu.google.cn/maps/api/js"></script>
+    
+    <!--Bootstrap JS-->
+    <script src="js/bootstrap.min.js"></script>
+    
+     
+         
+    <!--Owl Carousel-->
+    <script src="vendors/owl.carousel/js/owl.carousel.min.js"></script>
+    
+    <!--Isotope-->
+    <script src="vendors/isotope/isotope-custom.js"></script>
+    
+    <!--FlexSlider-->
+    <script src="vendors/flexslider/jquery.flexslider-min.js"></script>
+    
+    <!--D-shine JS-->
+    <script src="js/d-shine.js"></script>
+    
+    <!--Google Map JS-->
+    <script src="js/google-map.js"></script>
+    
+    <!--Contact JS-->
+    <script src="js/contact.js"></script>
+</body>
+</html>
