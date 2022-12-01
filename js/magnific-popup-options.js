@@ -2,7 +2,7 @@ $(document).ready(function() {
   // MagnificPopup
   var magnifPopup = function() {
     $('.image-popup').magnificPopup({
-      type: 'html',
+      type: 'image',
       removalDelay: 300,
       mainClass: 'mfp-with-zoom',
       gallery:{
@@ -20,7 +20,7 @@ $(document).ready(function() {
         opener: function(openerElement) {
         // openerElement is the element on which popup was initialized, in this case its <a> tag
         // you don't need to add "opener" option if this code matches your needs, it's defailt one.
-        return openerElement.is('html') ? openerElement : openerElement.find('html');
+        return openerElement.is('img') ? openerElement : openerElement.find('img');
         }
       }
     });
