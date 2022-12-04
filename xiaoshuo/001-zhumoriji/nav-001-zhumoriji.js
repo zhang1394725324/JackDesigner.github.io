@@ -26,8 +26,8 @@ document.writeln("                        <ul class=\'nav navbar-nav \' style=\'
 document.writeln("                            <ul>");
 document.writeln("                                <li><a class=\'sscroll\' href=\'01juan-001-zhumoriji.html#services\'><h4  style=\'color:rgb(141, 141, 141) ;\'>第一卷:武林霸主</h4></a></li>");
 document.writeln("                            </ul>");
-document.writeln("                            <li><a class=\'sscroll\' href=\'001-001-zhumoriji.html#services\'>第1章&nbsp暗藏心机</a></li>");
-document.writeln("                            <li><a class=\'sscroll\' href=\'002-001-zhumoriji.html#services\'>第2章&nbsp右臂残废</a></li>");
+document.writeln("                            <li><a class=\'sscroll\' href=\'001-001-zhumoriji.html\'>第1章&nbsp暗藏心机</a></li>");
+document.writeln("                            <li><a class=\'sscroll\' href=\'002-001-zhumoriji.html\'>第2章&nbsp右臂残废</a></li>");
 document.writeln("                            <li><a class=\'sscroll\' href=\'003-001-zhumoriji.html#portfolio\'>第3章&nbsp;</a></li>");
 document.writeln("                            <li><a class=\'sscroll\' href=\'004-001-zhumoriji.html#testimonial\'>第4章&nbsp;</a></li>");
 document.writeln("                            <li><a class=\'sscroll\' href=\'005-001-zhumoriji.html#about\'>第5章&nbsp;</a></li>");
