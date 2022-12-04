@@ -1,3 +1,8 @@
+/*!
+ * 小说阅读界面的底部导航栏
+
+ */
+
 document.writeln("            <footer>");
 document.writeln("                <div class=\'row\'>");
 document.writeln("                    <div class=\'col-md-12\'>");
