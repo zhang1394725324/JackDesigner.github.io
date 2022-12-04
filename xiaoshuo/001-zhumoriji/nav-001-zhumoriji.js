@@ -1,3 +1,9 @@
+/*!
+ * 小说诛魔日记阅读界面的导航
+
+ */
+
+
 document.writeln("            <nav class=\'navbar navbar-default\' role=\'navigation\' style=\'margin-top: 0px;\'>");
 document.writeln("                <!-- Brand and toggle get grouped for better mobile display -->");
 document.writeln("                <div class=\'navbar-header\'>");
