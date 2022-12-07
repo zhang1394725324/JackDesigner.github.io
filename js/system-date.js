@@ -8,7 +8,7 @@ function startTime(){
   document.getElementById('txt').innerHTML=h+":"+m+":"+s;
   t=setTimeout(function(){startTime()},500);
 }
-function checkTime(txt){
-  if (txt<10){txt="0"+txt}
-  return txt
+function checkTime(i){
+  if (i<10){txt="0"+i}
+  return i
 }
