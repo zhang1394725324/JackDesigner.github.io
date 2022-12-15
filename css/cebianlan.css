@@ -16,14 +16,14 @@ Copyright (c) 2014 Daniel Eden
     border: rgb(215, 215, 215) 1px solid;
     border-radius: 15px;
     text-align: center;
-    padding: 40px;
+    padding: 4%;
 }
 
 .cebianlan h3 {
     height: 40px;
 }
 
-.cebianlan ul {
+.cebianlan ul, #service .select-page ul{
     list-style: none;
     padding: 0px;
     margin: 0px;
@@ -33,13 +33,13 @@ Copyright (c) 2014 Daniel Eden
 .cebianlan ul li {
 
     margin: 5px;
-    width: 120px;
+    width: 100%;
 }
 
-.cebianlan ul li a {
+.cebianlan ul li a ,#service .select-page ul li a {
     display: block;
     height: 25px;
-    width: 120px;
+    width: 90%;
     line-height: 25px;
     border-radius: 10px;
 
@@ -49,24 +49,62 @@ Copyright (c) 2014 Daniel Eden
 .cebianlan ul li a:hover {
     background-color: rgb(37, 37, 37);
     color: rgb(255, 255, 255);
-    width: 100px;
     margin-left: 10px;
-    font-size: 15px;
+    font-size: 13px;
 }
 
-.cebianlan div {
-    margin-top: 20px;
-    padding: 5px;
-    width: 120px;
-    border: 2px solid rgb(255, 0, 0);
-    line-height: 25px;
-    border-radius: 20px;
-}
+ .container .row .col-sm-3  .cebianlan  div {
+        margin-top: 20px;
+        padding: 5px;
+        width: 100%;
+        border: 2px solid rgb(255, 0, 0);
+        line-height: 25px;
+        border-radius: 20px;
+    }
 
-.cebianlan div:hover {
+.container .row .col-sm-3  .cebianlan  div:hover {
     background-color: rgb(37, 37, 37);
     color: rgb(255, 255, 255);
     border: 0px;
     font-size: 15px;
+
+}
+
+#service .select-page{
+    position: relative;
+    top: 1px;
+    left: 1vw;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 6px 6px  13px 2px rgb(162, 162, 162);
+    color: rgb(100, 100, 100);
+    font-size: 12px;
+    border: rgb(215, 215, 215) 1px solid;
+    border-radius: 15px;
+    text-align: center;
+    padding: 80px;
+    
+}
+
+#service .select-page ul li {
+    margin: auto;
+}
+#service .select-page ul li a {
+    margin: auto;
+    width: 120px;
+    border: rgb(255, 0, 0) 1px solid;
+    border-radius: 10px;
+    color: rgb(255, 0, 0);
+    
+
+}
+#service .select-page ul li a:hover {
+    border:none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    font-size: 15px;
+}
+
+#service .select-page p {
+    margin-bottom: 45px;
 
 }
