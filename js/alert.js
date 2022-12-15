@@ -366,13 +366,13 @@
     const TzAlert = function (options) {
         if (!(this instanceof TzAlert)) { return new TzAlert(options); }
         this.options = Utils.fnDeepMerge({
-            width: '460px', // 弹窗宽度
+            // 弹窗宽度
             top: '20px',    // 距离顶部位置
             radius: '6px',  // 圆角
             shadow: '0 2px 10px rgba(0,0,0,0.2)', // 阴影
             async: false,   // 异步关闭
             asyncTime: 1000,// 延迟关闭时间
-            center: false,  // 内容居中
+            center: true,  // 内容居中
             useDrop: true,  // 拖拽
             useMaskClose: true, // 点击遮罩层关闭
             useInitShow: false,      // 是否初始化完成后直接弹出
